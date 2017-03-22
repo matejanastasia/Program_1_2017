@@ -16,7 +16,7 @@ public class Fraction {
     public Fraction(int numerator) {
         this(numerator, 1);
     }
-     
+
     public Fraction(int numerator, int denominator) {
         if (denominator == 0) {
             throw new IllegalArgumentException("Знаменник не може дорівнювати 0");
